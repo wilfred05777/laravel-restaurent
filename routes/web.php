@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+//// resource for this tutorial project https://www.youtube.com/watch?v=Kt7dciQ5xGU&list=PLm8sgxwSZofcOCoxwggBQ8FwPSoQUI_So&index=2
+
 Route::get('/', function(){
     return view('frontend.home');
 });
